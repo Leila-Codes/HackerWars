@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerWarsDB"
+	name="Hacker Wars Database"
+	ip="60.25.116.75"
+	allowsDefaultBootModule="true"
+	type="3">
+
+  <portsForCrack val="0" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="1.0" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+  <DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="HackerDB"
+    Color="220,50,90" AdminEmailAccount="j.tovar@hwars.net" AdminEmailHostID="jtovarPC"
+    Name="Hacker Wars: Participants">
+    <TextRecord>
+      <Title>Naix</Title>
+      <Data>[XXX.XX.XX.XXX]</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Chimera</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Grimace</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Talisman</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Phantasm</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Trix</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>5plinter</Title>
+      <Data>160.8.19.15</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Curse</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Alexander</Title>
+      <Data>160.8.12.15</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>r00t</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Crypto</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+    <TextRecord>
+      <Title>Lightning</Title>
+      <Data>XXX.XX.XX.XXX</Data>
+    </TextRecord>
+  </DatabaseDaemon>
+
+  <customthemefile path="home" name="Cyan_x-server.sys" themePath="Themes/CyanTech.xml"/>
+
+  <tracker />
+
+</Computer>

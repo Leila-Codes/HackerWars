@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="settingUp" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="delay" time="15.0"/>
+    </goals>
+
+    <missionStart>playCustomSong:Music/SomeHope.ogg</missionStart>
+    <missionEnd>loadConditionalActions:Actions/settingUp/addBattle01.xml</missionEnd>
+    
+    <nextMission>NONE</nextMission>
+
+    <email>
+        <sender>j.tovar@hwars.net</sender>
+        <subject>Welcome to Hacker Wars</subject>
+        <body>Hi there #PLAYERNAME#,
+
+I'm John Tovar, the head administrator here at Hacker Wars. I just wanted to take a moment to welcome you to the competition!
+
+Getting setup with our servers shouldn't be too difficult for a Hacker like you.
+
+The Hacker Wars systems has grown a lot this year, we have our own news coverage server and a brand-new discussion board for both competitors and viewers.
+
+I've linked all our services below, and provided your new account details to the battleboard daemon.
+
+Best of luck out there,
+ John Tovar   |   CEO Hacker Wars
+        </body>
+        <attachments>
+            <link comp="hackerForum" />
+            <link comp="hackerNews" />
+            <link comp="hackerHub" />
+            <account comp="hackerHub" user="#PLAYERNAME#" pass="h4cking_is_l1fe" />
+        </attachments>
+    </email>
+</mission>

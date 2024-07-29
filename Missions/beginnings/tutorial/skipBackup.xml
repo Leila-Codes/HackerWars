@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="unknownTestSkip" activeCheck="false" shouldIgnoreSenderVerification="true">
+    <goals>
+        <goal type="getstring" target="done"/>
+    </goals>
+
+    <nextMission>Missions/beginnings/hackTheWars_alt.xml</nextMission>
+
+    <email>
+        <sender></sender>
+        <subject></subject>
+        <body></body>
+        <attachments></attachments>
+    </email>
+</mission>

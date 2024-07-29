@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="systemRecovery1" activeCheck="true" shouldIgnoreSenderVerification="true">
+    <goals>
+        <goal type="delay" time="8.0"/>
+    </goals>
+
+    <email>
+        <sender>bbot@bboard.hwars.net</sender>
+        <subject>Defeated Notif. - System Restoration</subject>
+        <body>#PLAYERNAME#,
+
+Battleboard automated systems have detected that you have lost a recent battle.
+
+Under Hacker_Wars ruling you are allowed to re-attempt the battle, but only if you can recover your system to a usable state.
+
+Use your BACKUP server to restore your x-server and/or executables.
+
+Once you're back online, head back to the battleboard to retry your last battle.
+        </body>
+        <attachments>
+            <link comp="hackerHub" />
+
+            <link comp="playerBackup" />
+        </attachments>
+    </email>
+</mission>

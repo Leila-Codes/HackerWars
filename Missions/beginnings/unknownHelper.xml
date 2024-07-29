@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="unknownHelper" activeCheck="false" shouldIgnoreSenderVerification="true">
+
+    <goals>
+        <goal type="filedownload" target="lazarusToolstation" file="SSHCrack.exe" path="bin"/>
+	    <goal type="filedownload" target="lazarusToolstation" file="FTPBounce.exe" path="bin"/>
+	    <goal type="filedownload" target="lazarusToolstation" file="WebServerWorm.exe" path="bin"/>
+    </goals>
+
+    <nextMission>Missions/beginnings/tutorial/backupServer.xml</nextMission>
+
+    <branchMissions>
+        <branch>Missions/beginnings/tutorial/skipTest.xml</branch>
+    </branchMissions>
+
+    <email>
+        <sender>Unknown</sender>
+        <subject>Competition Injustice</subject>
+        <body>Hello there,
+
+We don't know each other very well just yet, but I do know you got rejected from joining the Hacker Wars competition this year.
+
+ Perhaps you wanted a challenge?
+ Was looking to prove yourself? 
+ Or perhaps you're more of the show-off type?
+
+Whatever your reasons, I think I can help you.
+
+That's right, let's HACK you a place into Hacker Wars #PLAYERNAME#! Kind of ironic, don't you think?
+
+
+Before we get started, I wonder if your toolsets and skills are up-to-date?
+
+Why don't you show me what you've got and grab yourself some tools on my server? 
+I've attached a link below.
+
+> Note: This mission is fully skippable, simply reply "done" to the email.
+        </body>
+
+        <attachments>
+            <link comp="lazarusToolstation" />
+        </attachments>
+    </email>
+</mission>

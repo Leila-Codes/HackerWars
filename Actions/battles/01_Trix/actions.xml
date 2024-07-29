@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly>
+        <ShowNode TargetComp="hwars_Trix" />
+        <RunFunction FunctionName="playCustomSong:Music/1vs1_1.ogg" FunctionValue="1" />
+        <LaunchHackScript Filepath="Scripts/battles/01_Trix/main.txt" SourceComp="hwars_Trix" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    </Instantly>
+  
+    <OnConnect target="hwars_Trix" needsMissionComplete="false">
+        <StartScreenBleedEffect AlertTitle="Hack Trix" CompleteAction="Actions/battles/01_Trix/defeat.xml" TotalDurationSeconds="65.0">Get Admin on Trix
+  Delete 'sys' file(s)
+  Delete Trix's 'exe' tool(s)</StartScreenBleedEffect>
+    </OnConnect>
+  
+  </ConditionalActions>

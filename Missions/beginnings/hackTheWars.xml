@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="hackTheWars" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="getadmin" target="hackerWarsDB" />
+    </goals>
+
+    <nextMission>Missions/beginnings/hackTheWars2.xml</nextMission>
+
+    <email>
+        <sender>Unknown</sender>
+        <subject>The Real Hack</subject>
+        <body>Phew! I bet that's a load off that you've backed everything up!
+
+At least consider uploading any new tools you find along the way, they might be a lot harder to find again!
+
+It's taken some digging, but I think I have a way into the Hacker Wars DB. IP attached below.
+
+You'll need to get admin access to the server before we can make any... "updates"
+
+Do that first while I find us someone you can replace...
+        </body>
+        <attachments>
+            <link comp="hackerWarsDB" />
+        </attachments>
+    </email>
+</mission>

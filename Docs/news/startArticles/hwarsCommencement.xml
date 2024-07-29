@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="hwarsCommencement" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals></goals>
+    <nextMission>NONE</nextMission>
+
+    <posting title="Hacker_Wars has officially commenced!">
+Hacker_Wars 2, the 2nd year of Hacker_Wars has started now with
+many of the professional hackers you've seen from last year but
+with one or two new faces as well! 
+
+Stay tuned as we bring you up-to-date game results and the
+inside scoop on the games!
+    </posting>
+
+    <email>
+        <sender>NONE</sender>
+        <subject>NONE</subject>
+        <body>NONE</body>
+        <attachments></attachments>
+    </email>
+</mission>

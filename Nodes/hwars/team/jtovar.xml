@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer 
+    id="jtovarPC" 
+    name="J. Tovar's Personal PC" 
+    type="1" 
+    icon="laptop" 
+    security="3" 
+    ip="#RANDOM_IP#" 
+    allowsDefaultBootModule="true">
+    
+</Computer>

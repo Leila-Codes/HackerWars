@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hackerForum"
+	name="Hacker Wars Forums"
+	ip="forum.hwars.net"
+	allowsDefaultBootModule="true"
+	type="3">
+
+  <portsForCrack val="4" />
+  <ports>21,25,80</ports>
+  <trace time="-1" />
+  <proxy time="0.5" />
+
+  <positionNear target="hackerWarsDB" position="2" total="4" extraDistance="0.4" force="false"/>
+  
+  <file path="home" name="example.txt">LMAO.
+What an example this file is turning out to be...</file>
+
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+  <messageBoard name="Hacker_Wars Forum">
+    <thread>Docs/forum/startingArticles/welcomeHwars.txt</thread>
+    <thread>Docs/forum/startingArticles/whoAreYou.txt</thread>
+  </messageBoard>
+   
+   <dlink target="hackerHub" />
+</Computer>

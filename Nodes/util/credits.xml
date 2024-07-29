@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsSrv"
+	name="HW Credits Server"
+	ip="225.224.225.224"
+	allowsDefaultBootModule="true"
+	type="empty">
+
+  <portsForCrack val="0" />
+  <ports>80, 1433, 22</ports>
+  <trace time="-1" />
+  
+  <adminPass pass="r4nd0m_stuff" />
+  
+  <file path="home/Themes" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+  <file path="home" name="CreditsData.txt">
+%-----  Hacker Wars  -----
+^Created by Leila-Codes
+ 
+^----- Music Credits -----
+ "Forms"
+   by Infraction
+	
+  "Weekend"
+   by Infraction
+	
+  "Investigation"
+   by Panda Beats
+	
+  "Let's Play"
+   by Infraction
+
+  "Lethal Choice"
+   by Infraction
+
+  "Just Evil"
+   by Infraction
+	
+  "Catwalk Queen"
+   by Infraction
+  
+  "TV Show 2021"
+   by Infraction
+	
+  "Silent Night"
+   by Infraction
+
+  "Synthwave Game Boy"
+   by Infraction
+
+  "Mesto"
+   by Infraction
+-----------------------
+
+^---- Thank You ----
+Thank you to all in the wonderful Hacknet Community!
+Whether it was feedback on the Workshop or help on the
+Discord server! All of your support and help has been
+the best!!!
+
+Especially @Fayti1703, forever answering my dumb questions.
+
+</file>
+  
+  <CreditsDaemon Title="Hacker Wars Ending Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="NONE" /> <!-- FORMERLY: Actions/completion.xml -->
+</Computer>

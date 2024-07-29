@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="hackTheWarsFinal" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="delay" time="6.0" />
+    </goals>
+
+    <nextMission>Missions/settingUp/welcomeToHackerWars.xml</nextMission>
+
+    <email>
+        <sender>Unknown</sender>
+        <subject>RE: The Real Hack</subject>
+        <body>Nice job #PLAYERNAME#,
+
+Now if we just wait a little while, the automated system should be contacting you soon!
+
+It seems my work here is done. I'll be sure to keep my eye on you as the competition progresses!
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>

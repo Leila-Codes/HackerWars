@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hwars_Talisman" name="Bitwise Test PC" type="4" icon="laptop" security="2" ip="123.123.123.123" allowsDefaultBootModule="true">
+    
+</Computer>

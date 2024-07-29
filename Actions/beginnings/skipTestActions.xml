@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+        <AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+        <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+    </Instantly>
+</ConditionalActions>

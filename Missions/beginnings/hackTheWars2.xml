@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="hackTheWars2" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filechange" target="hackerWarsDB" file="alexander.rec" path="HackerDB" keyword="#PLAYERNAME#" caseSensitive="true" />
+        <goal type="filechange" target="hackerWarsDB" file="alexander.rec" path="HackerDB" keyword="#PLAYER_IP#" caseSensitive="false" />
+    </goals>
+
+    <nextMission>Missions/beginnings/hackTheWarsFinal.xml</nextMission>
+
+    <email>
+        <sender>Unknown</sender>
+        <subject>RE: The Real Hack</subject>
+        <body>Okay then, down to business.
+
+We're looking for a participant named "alexander."
+Let's just say, he went on a business trip... You're replacing him.
+
+Get into the DB files, find is record and update the name and IP to yours!
+
+Just be careful, DO NOT RENAME THE FILE, WE DON'T WANT IT TO BE OBVIOUS
+ SOMEONE HAS HACKED IN.
+
+        </body>
+        <attachments>
+            <link comp="hackerWarsDB" />
+            <note title="Replacement Info">1) Locate the Entry for "Alexander"
+2) Change the hacker name: "replace Alexander #PLAYERNAME#"
+3) Change the IP address. "replace 160.8.12.15 #PLAYER_IP#"</note>
+        </attachments>
+    </email>
+</mission>

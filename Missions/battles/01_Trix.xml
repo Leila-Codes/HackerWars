@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="battle01_trix" activeCheck="true" shouldIgnoreSenderVerification="false">
+  <goals>
+    <!-- Goals here -->
+    <goal type="filedeletion" target="hwars_Trix" file="x-server.sys" path="sys"/>
+	  <goal type="clearfolder" target="hwars_Trix" path="bin/cracks" />
+  </goals>
+
+  <missionStart val="1">loadConditionalActions:Actions/battles/01_Trix/actions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/battles/01_Trix/success.xml</missionEnd>
+  
+  <nextMission>NONE</nextMission>
+  
+  <posting title="Hacker Wars Round 2 : #PLAYERNAME# vs. Trix">
+After a tense but tremendous first round between Naix and Splinter, our two highest ranked, it's time to see two hackers from the other end of the spectrum. Let's see our next 2 contestants:
+
+  #PLAYERNAME#     vs.   Trix
+</posting>
+  
+  <email>
+    <sender>no-reply@bboard.hwars.net</sender>
+    <subject>Opponent#01: Battle Started</subject>
+    <body>#PLAYERNAME#,
+
+This is an automated email to inform you that you have started a battle with the Hacker
+ known as "Trix". If this was not you, we recommend restarting your computer
+ immediately!
+ 
+ Otherwise, the battle has commenced! You will find your target's IP Address linked below.
+
+ Good luck!
+ 
+ Battle Bot   |  Hacker Wars Services
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Main Goals">1) Get Admin Access into Trix's computer
+2) Wipe her "SYS" folder and "BIN" folder.
+3) ForkBomb.</note>
+	  <link comp="hwars_Trix" />
+    </attachments>
+  </email>
+</mission>

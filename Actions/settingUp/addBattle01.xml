@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <AddMissionToHubServer MissionFilepath="Missions/battles/01_Trix.xml" TargetComp="hackerHub" />
+    </Instantly>
+</ConditionalActions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person id="hwarsTalisman"
+         handle="T4l1sm4n"
+         firstName="Benjamin"
+         lastName="Davison"
+         isMale="true"
+         forceHasNeopals="false">
+
+    <Birthplace name="Baltimore" />
+
+    <Degrees>
+        <Degree uni="Carnegie Mellon University" gpa="3.8">Bachelor of Cyber Security</Degree>
+    </Degrees>
+    
+</Person>

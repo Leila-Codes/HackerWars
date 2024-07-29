@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person id="hwarsChimera"
+         handle="Chim3r4"
+         firstName="Phoebe"
+         lastName="Sutherland"
+         isMale="false"
+         forceHasNeopals="false">
+
+    <Birthplace name="Conneticut" />
+
+    <Degrees>
+        <Degree uni="Massachusetts Institute of Technology" gpa="3.4">Bachelor of Cyber Security</Degree>
+    </Degrees>
+    
+</Person>

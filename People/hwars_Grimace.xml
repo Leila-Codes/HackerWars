@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Person id="hwarsGrimace"
+         handle="Gr1m4c3"
+         firstName="Courtney"
+         lastName="Holmes"
+         isMale="false"
+         forceHasNeopals="false">
+
+    <Birthplace name="Northern Cambria" />
+
+    <Degrees>
+        <Degree uni="Carnegie Mellon University" gpa="3.8">Bachelor of Cyber Security</Degree>
+    </Degrees>
+    
+</Person>

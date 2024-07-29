@@ -1,0 +1,8 @@
+# Music Files
+Music/*.ogg
+
+# Plugins
+plugins/
+
+# Debug/Report Files
+report.txt

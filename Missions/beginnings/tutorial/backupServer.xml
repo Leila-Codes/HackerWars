@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="backupTutorial" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="fileupload" target="lazarusToolstation" file="SSHCrack.exe" path="bin" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+        <goal type="fileupload" target="lazarusToolstation" file="FTPBounce.exe" path="bin" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+        <goal type="fileupload" target="lazarusToolstation" file="WebServerWorm.exe" path="bin" destTarget="playerBackup" destPath="home/BACKUP/bin"/>
+    </goals>
+
+    <branchMissions>
+        <branch>Missions/beginnings/tutorial/skipBackup.xml</branch>
+    </branchMissions>
+
+    <nextMission>NONE</nextMission>
+
+    <email>
+        <sender>Unknown</sender>
+        <subject>Backup Servers</subject>
+        <body>Excellent #PLAYERNAME#!
+
+Then let's get you setup with something crucial for the competition.
+
+You need yourself a BACKUP server. Somewhere you can securely store important files!
+
+Your EXEs and X-Server.sys could be tampered with or deleted so it's best to have a spare ready for you.
+
+I've already set a server up, and linked the IP below. Login and upload your important files!
+
+Let me know when you're ready to proceed.
+
+> NOTE: This mission is skippable, simply reply "done" to advance.
+WARNING: if you do NOT backup your files, you risk getting stuck later in the game.
+        </body>
+        <attachments>
+            <link comp="playerBackup"/>
+
+            <account comp="playerBackup" user="admin" pass="fkSocie3ty"></account>
+        </attachments>
+    </email>
+</mission>

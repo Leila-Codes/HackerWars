@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="rejectionEmail" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="delay" time="10.0"/>
+    </goals>
+
+    <nextMission>Missions/beginnings/unknownHelper.xml</nextMission>
+
+    <email>
+        <sender>j.thomas@hwars.net</sender>
+        <subject>Hacker Wars: Entry Rejected</subject>
+        <body>Dear #PLAYERNAME#,
+
+Thank you for sending in your request to compete for the 
+ Hacker Wars competition this year.
+
+As you'll no doubt be surprised, a lot requests were received this year,
+ following the success of last years competition.
+
+Unfortunately due to the volume of requests, yours has not been accepted.
+
+We hope you will re-submit again next year!
+
+Sincerely,  
+    Judith Thomas   |    Hacker Wars Centre Coordinator
+        </body>
+        <attachments></attachments>
+    </email>
+</mission>
