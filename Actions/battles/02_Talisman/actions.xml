@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/1vs1_2.ogg" FunctionValue="1" />
+        <HideAllNodes DelayHost="delayNode" Delay="5.0" />
+        <ShowNode Target="hwars_Talisman" DelayHost="delayNode" Delay="5.0" />
+        <LaunchHackScript Filepath="Scripts/battles/02_Talisman/main.txt" SourceComp="hwars_Talisman" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true" />
+    </Instantly>
+
+    <OnConnect target="hwars_Talisman" needsMissionComplete="false">
+        <StartScreenBleedEffect AlertTitle="Hack Talisman" CompleteAction="Actions/battles/02_Talisman/defeat.xml" TotalDurationSeconds="70">Get Admin on Talisman's Device
+Delete Talisman's 'exe' tool(s)
+Delete 'x-server.sys'</StartScreenBleedEffect>
+    </OnConnect>
+</ConditionalActions>

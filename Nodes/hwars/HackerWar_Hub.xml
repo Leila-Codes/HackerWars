@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="hackerHub"
-	name="Hacker Wars Battleboard"
-	ip="bboard.hwars.net"
-	icon="chip"
-	allowsDefaultBootModule="true"
-	type="4">
+          name="Hacker Wars Battleboard"
+          ip="bboard.hwars.net"
+          icon="chip"
+          allowsDefaultBootModule="true"
+          type="4">
 
   <portsForCrack val="4" />
   <ports>21,25,80</ports>
@@ -13,7 +13,7 @@
   
   <adminPass pass="whatAKn*bhead" />
 
-  <positionNear target="hackerWarsDB" position="1" total="4" extraDistance="0.4" force="false"/>
+  <positionNear target="hackerWarsDB" position="3" total="4" extraDistance="0.5" force="false"/>
   
   <account username="#PLAYERNAME#" password="h4cking_is_l1fe" type="3" />
   

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly>
+        <LaunchHackScript Filepath="Scripts/battles/02_Talisman/defeat.txt" SourceComp="hwars_Talisman" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+
+        <RunFunction FunctionName="playCustomSong:Music/YouLost.ogg" FunctionValue="1" />
+
+        <LoadMission MissionName="Missions/util/systemRecovery.xml" />
+        
+        <AddConditionalActions Filepath="Actions/settingUp/addBattle02.xml" />
+    </Instantly>
+</ConditionalActions>

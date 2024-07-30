@@ -1,4 +1,40 @@
-<?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="hwars_Talisman" name="Bitwise Test PC" type="4" icon="laptop" security="2" ip="123.123.123.123" allowsDefaultBootModule="true">
+<?xml version="1.0" encoding="UTF-8"?>
+<mission id="battle02_talisman" activeCheck="true" shouldIgnoreSenderVerification="true">
+    <goals>
+        <goal type="clearfolder" target="hwars_Talisman" path="bin"/>
+        <goal type="filedeletion" target="hwars_Talisman" file="x-server.sys" path="sys"/>
+    </goals>
+
+    <missionStart>loadConditionalActions:Actions/battles/02_Talisman/actions.xml</missionStart>
+    <missionEnd>loadConditionalActions:Actions/battles/02_Talisman/success.xml</missionEnd>
+
+    <nextMission>NONE</nextMission>
+      
+    <posting title="Hacker Wars Round 3 : Talisman vs. #PLAYERNAME#">
+Talisman, a high ranking player from last year's tourney is here to seek justice for his defeat.
+
+Will be victorious or will you snuff his revenge arc?
     
-</Computer>
+    Talisman      vs.     #PLAYERNAME# 
+    </posting>
+
+    <email>
+        <sender>no-reply@bboard.hwars.net</sender>
+        <subject>Opponent#02: Battle Started</subject>
+        <body>#PLAYERNAME#,
+    
+This is an automated email to inform you that you have started a battle with the Hacker
+    known as "Talisman". If this was not you, we recommend restarting your computer
+    immediately!
+    
+    Otherwise, the battle has commenced! You will find your target's IP Address linked below.
+
+    Good luck!
+    
+    Battle Bot   |  Hacker Wars Services
+    </body>
+        <attachments>
+            <link comp="hwars_Talisman" />
+        </attachments>
+    </email>
+</mission>

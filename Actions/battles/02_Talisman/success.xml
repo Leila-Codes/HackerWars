@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalActions>
+    <Instantly>
+        <CancelScreenBleedEffect />
+
+        <RunFunction FunctionName="playCustomSong:Music/TeamGathering.ogg" FunctionValue="1" />
+        
+        <LaunchHackScript Filepath="Scripts/battles/02_Talisman/success.xml" SourceComp="hackerHub" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+    </Instantly>
+</ConditionalActions>

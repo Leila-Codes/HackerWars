@@ -2,10 +2,11 @@
 <ConditionalActions>
     <Instantly>
         <LaunchHackScript Filepath="Scripts/battles/01_Trix/defeat.txt" SourceComp="hwars_Trix" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false" />
+
         <RunFunction FunctionName="playCustomSong:Music/YouLost.ogg" FunctionValue="0"/>
-      
-        <AddMissionToHubServer MissionFilepath="Missions/battles/01_Trix.xml" TargetComp="hackerHub" />
+
         <LoadMission MissionName="Missions/util/systemRecovery.xml" />
+
+        <AddConditionalActions Filepath="Actions/settingUp/addBattle01.xml" />
     </Instantly>
-  
 </ConditionalActions>

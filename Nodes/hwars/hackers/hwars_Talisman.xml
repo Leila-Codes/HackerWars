@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer id="hwars_Talisman" 
+    name="Talisman's Battlestation" 
+    type="4" 
+    security="2" 
+    ip="#RANDOM_IP#" 
+    allowsDefaultBootModule="false">
+
+    <ports>22,21,80,25</ports>
+
+    <portsForCrack val="4"/>
+
+    <firewall level="10" solution="encryption" additionalTime="0.0"/>
+    
+    <adminPass pass="s(arySystem75"/>
+
+    <!-- TODO: add files -->
+
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path="bin" name="SQLMemCorrupt.exe">#SQL_CRACK#</file>
+
+</Computer>

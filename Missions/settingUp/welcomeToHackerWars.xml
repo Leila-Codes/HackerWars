@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mission id="settingUp" activeCheck="true" shouldIgnoreSenderVerification="false">
     <goals>
-        <goal type="delay" time="15.0"/>
+        <goal type="delay" time="5.0"/>
     </goals>
 
     <missionStart>playCustomSong:Music/SomeHope.ogg</missionStart>
-    <missionEnd>loadConditionalActions:Actions/settingUp/addBattle01.xml</missionEnd>
+    <missionEnd>loadConditionalActions:Actions/settingUp/addBattle02.xml</missionEnd>
     
     <nextMission>NONE</nextMission>
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Computer id="hwars_Trix"
     name="Trix's Laptop"
-    ip="160.8.255.15"
+    ip="#RANDOM_IP#"
     icon="laptop"
     allowsDefaultBootModule="false"
     type="2">
 
     <portsForCrack val="3" />
-    <ports>22,21,80</ports>
+    <ports>22, 21, 80</ports>
 
     <trace time="-1" />
 

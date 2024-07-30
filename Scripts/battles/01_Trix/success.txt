@@ -6,5 +6,5 @@ writel Commentator: Well! I think #PLAYERPRONOUN# surprised us all! #PLAYERNAME#
 delay 1 $#%#$
 writel Commentator: #PLAYERPRONOUN# has successfully hacked Trix's Computer!! $#%#$
 delay 1 $#%#$
-writel Commentator: Comiserations to our loser! But congratulations to our winner for this round! $#%#$
+writel Commentator: Sympathies for our loser, but congratulations to our winner for this round! $#%#$
 delay 1 $#%#$
